@@ -25,6 +25,8 @@ func NewClient(pathToDB string) (Client, error) {
 
 }
 
+
+
 func (c *Client) autoMigrate() error {
 	userTable := `
 	CREATE TABLE IF NOT EXISTS users (
