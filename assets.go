@@ -2,6 +2,7 @@ package main
 
 import (
 	"os"
+
 )
 
 func (cfg apiConfig) ensureAssetsDir() error {
@@ -10,3 +11,5 @@ func (cfg apiConfig) ensureAssetsDir() error {
 	}
 	return nil
 }
+
+
